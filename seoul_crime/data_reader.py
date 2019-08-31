@@ -38,6 +38,6 @@ class DataReader:
         return json.load(open(file, encoding='UTF-8'))
 
     def create_gmaps(self):
-        return googlemaps.Client(key='AIzaSyAvHiEkPx4COAOmt8FwGOZWm8mzundX-kI') ########################삭제########################
+        return googlemaps.Client(key='') ########################삭제########################
 
 
